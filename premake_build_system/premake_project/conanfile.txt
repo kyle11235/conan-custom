@@ -1,0 +1,6 @@
+ [requires]
+ hello/0.1@myuser/testing
+ premakegen@0.1@myuser/testing
+
+ [generators]
+ premake

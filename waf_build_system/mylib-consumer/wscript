@@ -21,4 +21,5 @@ def configure(conf):
     conf.load('waf_conan_toolchain', tooldir='.')
 
 def build(bld):
-    bld.program(source='main.cpp', target='app', use='mylib')
+    # use='mylib_waf' -> waf_conan_libs_info.py -> ctx.env.CONAN_LIBS = [..., 'mylib_waf'] -> ctx.env.LIB_mylib_waf = ['mylib'] -> ./lib/libmylib.a
+    bld.program(source='main.cpp', target='app', use='mylib_waf')

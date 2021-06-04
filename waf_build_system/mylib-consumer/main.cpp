@@ -7,15 +7,15 @@
 
 #include <cstdlib>
 
+// kyle fix
 #include "mylib.hpp"
 
 using namespace std;
 
-/*
- * The main function creates an instance of TextWriterDemo run it.
- */
 int main(int argc, char** argv) {
-    PrintMessage();
+    // kyle fix
+    MyLib* mylib=new MyLib();
+    mylib->PrintMessage("hello kyle");
     return 0;
 }
 

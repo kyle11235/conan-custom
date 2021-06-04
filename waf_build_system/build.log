@@ -1,0 +1,284 @@
++ python build.py
+[HOOK - attribute_checker.py] pre_export(): WARN: Conanfile doesn't have 'url'. It is recommended to add it as attribute
+[HOOK - attribute_checker.py] pre_export(): WARN: Conanfile doesn't have 'description'. It is recommended to add it as attribute
+Exporting package recipe
+WafGen/0.1@user/channel: The stored package has not changed
+WafGen/0.1@user/channel: Using the exported files summary hash as the recipe revision: ab9e81e3465129a809537f7081f87f14 
+WafGen/0.1@user/channel: Exported revision: ab9e81e3465129a809537f7081f87f14
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=gcc
+compiler.libcxx=libstdc++
+compiler.version=4.8
+os=Linux
+os_build=Linux
+[options]
+[build_requires]
+[env]
+
+WafGen/0.1@user/channel: Forced build from source
+Installing package: WafGen/0.1@user/channel
+Requirements
+    WafGen/0.1@user/channel from local cache - Cache
+Packages
+    WafGen/0.1@user/channel:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Build
+
+Installing (downloading, building) binaries...
+WafGen/0.1@user/channel: Copying sources to build folder
+WafGen/0.1@user/channel: Building your package in /root/.conan/data/WafGen/0.1/user/channel/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+WafGen/0.1@user/channel: Generator txt created conanbuildinfo.txt
+WafGen/0.1@user/channel: Calling build()
+WafGen/0.1@user/channel: WARN: This conanfile has no build step
+WafGen/0.1@user/channel: Package '5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9' built
+WafGen/0.1@user/channel: Build folder /root/.conan/data/WafGen/0.1/user/channel/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+WafGen/0.1@user/channel: Generated conaninfo.txt
+WafGen/0.1@user/channel: Generated conanbuildinfo.txt
+WafGen/0.1@user/channel: Generating the package
+WafGen/0.1@user/channel: Package folder /root/.conan/data/WafGen/0.1/user/channel/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+WafGen/0.1@user/channel: Calling package()
+WafGen/0.1@user/channel: WARN: This conanfile has no package step
+WafGen/0.1@user/channel package(): WARN: No files in this package!
+WafGen/0.1@user/channel: Package '5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9' created
+WafGen/0.1@user/channel: Created package revision 09e1cd011acff3f585c30e240193c3ce
+************************************************************
+  This package defines both 'os' and 'os_build' 
+  Please use 'os' for libraries and 'os_build'
+  only for build-requires used for cross-building
+************************************************************
+[HOOK - attribute_checker.py] pre_export(): WARN: Conanfile doesn't have 'url'. It is recommended to add it as attribute
+Exporting package recipe
+waf/2.0.19@user/channel: The stored package has not changed
+waf/2.0.19@user/channel: Using the exported files summary hash as the recipe revision: a29dba1627251c92eafaa96b0fb5da8d 
+waf/2.0.19@user/channel: Exported revision: a29dba1627251c92eafaa96b0fb5da8d
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=gcc
+compiler.libcxx=libstdc++
+compiler.version=4.8
+os=Linux
+os_build=Linux
+[options]
+[build_requires]
+[env]
+
+waf/2.0.19@user/channel: Forced build from source
+Installing package: waf/2.0.19@user/channel
+Requirements
+    waf/2.0.19@user/channel from local cache - Cache
+Packages
+    waf/2.0.19@user/channel:be241241e9d4718e5bab4eb33935bbb69606bb0c - Build
+
+Installing (downloading, building) binaries...
+waf/2.0.19@user/channel: Copying sources to build folder
+waf/2.0.19@user/channel: Building your package in /root/.conan/data/waf/2.0.19/user/channel/build/be241241e9d4718e5bab4eb33935bbb69606bb0c
+waf/2.0.19@user/channel: Generator txt created conanbuildinfo.txt
+waf/2.0.19@user/channel: Calling build()
+waf/2.0.19@user/channel: WARN: Downloading Waf build system: https://waf.io/waf-2.0.19
+Downloading waf completed [102.38k]                                                      
+
+waf/2.0.19@user/channel: Package 'be241241e9d4718e5bab4eb33935bbb69606bb0c' built
+waf/2.0.19@user/channel: Build folder /root/.conan/data/waf/2.0.19/user/channel/build/be241241e9d4718e5bab4eb33935bbb69606bb0c
+waf/2.0.19@user/channel: Generated conaninfo.txt
+waf/2.0.19@user/channel: Generated conanbuildinfo.txt
+waf/2.0.19@user/channel: Generating the package
+waf/2.0.19@user/channel: Package folder /root/.conan/data/waf/2.0.19/user/channel/package/be241241e9d4718e5bab4eb33935bbb69606bb0c
+waf/2.0.19@user/channel: Calling package()
+waf/2.0.19@user/channel package(): Packaged 1 file: waf
+waf/2.0.19@user/channel: Package 'be241241e9d4718e5bab4eb33935bbb69606bb0c' created
+waf/2.0.19@user/channel: Created package revision 6ea0800395f5884126c83ba5be2efd75
+waf/2.0.19@user/channel: Using Waf 2.0.19 version
+[HOOK - attribute_checker.py] pre_export(): WARN: Conanfile doesn't have 'url'. It is recommended to add it as attribute
+[HOOK - attribute_checker.py] pre_export(): WARN: Conanfile doesn't have 'license'. It is recommended to add it as attribute
+[HOOK - attribute_checker.py] pre_export(): WARN: Conanfile doesn't have 'description'. It is recommended to add it as attribute
+Exporting package recipe
+waf-build-helper/0.1@user/channel exports: Copied 1 '.py' file: waf_environment.py
+waf-build-helper/0.1@user/channel: The stored package has not changed
+waf-build-helper/0.1@user/channel: Using the exported files summary hash as the recipe revision: 1af316e3873c78fdb16e10afc5dc4555 
+waf-build-helper/0.1@user/channel: Exported revision: 1af316e3873c78fdb16e10afc5dc4555
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=gcc
+compiler.libcxx=libstdc++
+compiler.version=4.8
+os=Linux
+os_build=Linux
+[options]
+[build_requires]
+[env]
+
+waf-build-helper/0.1@user/channel: Forced build from source
+Installing package: waf-build-helper/0.1@user/channel
+Requirements
+    waf-build-helper/0.1@user/channel from local cache - Cache
+Packages
+    waf-build-helper/0.1@user/channel:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Build
+
+Installing (downloading, building) binaries...
+waf-build-helper/0.1@user/channel: Copying sources to build folder
+waf-build-helper/0.1@user/channel: Building your package in /root/.conan/data/waf-build-helper/0.1/user/channel/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+waf-build-helper/0.1@user/channel: Generator txt created conanbuildinfo.txt
+waf-build-helper/0.1@user/channel: Calling build()
+waf-build-helper/0.1@user/channel: WARN: This conanfile has no build step
+waf-build-helper/0.1@user/channel: Package '5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9' built
+waf-build-helper/0.1@user/channel: Build folder /root/.conan/data/waf-build-helper/0.1/user/channel/build/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+waf-build-helper/0.1@user/channel: Generated conaninfo.txt
+waf-build-helper/0.1@user/channel: Generated conanbuildinfo.txt
+waf-build-helper/0.1@user/channel: Generating the package
+waf-build-helper/0.1@user/channel: Package folder /root/.conan/data/waf-build-helper/0.1/user/channel/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+waf-build-helper/0.1@user/channel: Calling package()
+waf-build-helper/0.1@user/channel: WARN: This conanfile has no package step
+waf-build-helper/0.1@user/channel package(): WARN: No files in this package!
+waf-build-helper/0.1@user/channel: Package '5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9' created
+waf-build-helper/0.1@user/channel: Created package revision acf8c248cae23b1602b5d1f48400565d
+[HOOK - attribute_checker.py] pre_export(): WARN: Conanfile doesn't have 'url'. It is recommended to add it as attribute
+Exporting package recipe
+mylib-waf/1.0@user/channel exports_sources: Copied 1 file: wscript
+mylib-waf/1.0@user/channel exports_sources: Copied 1 '.cpp' file: mylib.cpp
+mylib-waf/1.0@user/channel exports_sources: Copied 1 '.hpp' file: mylib.hpp
+mylib-waf/1.0@user/channel: The stored package has not changed
+mylib-waf/1.0@user/channel: Using the exported files summary hash as the recipe revision: 8b50fc5d72ade2cdaad212e5cf0d57f2 
+mylib-waf/1.0@user/channel: Exported revision: 8b50fc5d72ade2cdaad212e5cf0d57f2
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=gcc
+compiler.cppstd=14
+compiler.libcxx=libstdc++
+compiler.version=4.8
+os=Linux
+os_build=Linux
+[options]
+[build_requires]
+[env]
+
+mylib-waf/1.0@user/channel: Forced build from source
+Installing package: mylib-waf/1.0@user/channel
+Requirements
+    mylib-waf/1.0@user/channel from local cache - Cache
+Python requires
+    waf-build-helper/0.1@user/channel
+Packages
+    mylib-waf/1.0@user/channel:928906148a61e9d454cd6f6e3983f931cb96e9b2 - Build
+Build requirements
+    waf/2.0.19@user/channel from local cache - Cache
+Build requirements packages
+    waf/2.0.19@user/channel:be241241e9d4718e5bab4eb33935bbb69606bb0c - Cache
+
+Installing (downloading, building) binaries...
+waf/2.0.19@user/channel: Already installed!
+waf/2.0.19@user/channel: Using Waf 2.0.19 version
+mylib-waf/1.0@user/channel: Applying build-requirement: waf/2.0.19@user/channel
+mylib-waf/1.0@user/channel: Copying sources to build folder
+mylib-waf/1.0@user/channel: Building your package in /root/.conan/data/mylib-waf/1.0/user/channel/build/928906148a61e9d454cd6f6e3983f931cb96e9b2
+mylib-waf/1.0@user/channel: Generator txt created conanbuildinfo.txt
+mylib-waf/1.0@user/channel: Calling build()
+mylib-waf/1.0@user/channel: Waf Toolchain File created: waf_conan_toolchain.py
+Setting top to                           : /root/.conan/data/mylib-waf/1.0/user/channel/build/928906148a61e9d454cd6f6e3983f931cb96e9b2 
+Setting out to                           : /root/.conan/data/mylib-waf/1.0/user/channel/build/928906148a61e9d454cd6f6e3983f931cb96e9b2/build 
+Checking for 'g++' (C++ compiler)        : /usr/bin/g++ 
+'configure' finished successfully (0.142s)
+Waf: Entering directory `/root/.conan/data/mylib-waf/1.0/user/channel/build/928906148a61e9d454cd6f6e3983f931cb96e9b2/build'
+[1/2] Compiling src/mylib.cpp
+[2/2] Linking build/libmylib.a
+Waf: Leaving directory `/root/.conan/data/mylib-waf/1.0/user/channel/build/928906148a61e9d454cd6f6e3983f931cb96e9b2/build'
+'build' finished successfully (0.239s)
+mylib-waf/1.0@user/channel: Package '928906148a61e9d454cd6f6e3983f931cb96e9b2' built
+mylib-waf/1.0@user/channel: Build folder /root/.conan/data/mylib-waf/1.0/user/channel/build/928906148a61e9d454cd6f6e3983f931cb96e9b2
+mylib-waf/1.0@user/channel: Generated conaninfo.txt
+mylib-waf/1.0@user/channel: Generated conanbuildinfo.txt
+mylib-waf/1.0@user/channel: Generating the package
+mylib-waf/1.0@user/channel: Package folder /root/.conan/data/mylib-waf/1.0/user/channel/package/928906148a61e9d454cd6f6e3983f931cb96e9b2
+mylib-waf/1.0@user/channel: Calling package()
+mylib-waf/1.0@user/channel package(): Packaged 1 '.hpp' file: mylib.hpp
+mylib-waf/1.0@user/channel package(): Packaged 1 '.a' file: libmylib.a
+mylib-waf/1.0@user/channel: Package '928906148a61e9d454cd6f6e3983f931cb96e9b2' created
+mylib-waf/1.0@user/channel: Created package revision 1146044ff09be8ac4507b74419b13887
+[HOOK - attribute_checker.py] pre_export(): WARN: Conanfile doesn't have 'url'. It is recommended to add it as attribute
+[HOOK - attribute_checker.py] pre_export(): WARN: Conanfile doesn't have 'license'. It is recommended to add it as attribute
+[HOOK - attribute_checker.py] pre_export(): WARN: Conanfile doesn't have 'description'. It is recommended to add it as attribute
+Exporting package recipe
+waf-consumer/1.0@user/channel exports_sources: Copied 1 file: wscript
+waf-consumer/1.0@user/channel exports_sources: Copied 1 '.cpp' file: main.cpp
+waf-consumer/1.0@user/channel: A new conanfile.py version was exported
+waf-consumer/1.0@user/channel: Folder: /root/.conan/data/waf-consumer/1.0/user/channel/export
+waf-consumer/1.0@user/channel: Using the exported files summary hash as the recipe revision: 5d32496300741e91263ba9602a26dc75 
+waf-consumer/1.0@user/channel: Package recipe modified in export, forcing source folder removal
+waf-consumer/1.0@user/channel: Use the --keep-source, -k option to skip it
+waf-consumer/1.0@user/channel: Exported revision: 5d32496300741e91263ba9602a26dc75
+Configuration:
+[settings]
+arch=x86_64
+arch_build=x86_64
+build_type=Release
+compiler=gcc
+compiler.cppstd=14
+compiler.libcxx=libstdc++
+compiler.version=4.8
+os=Linux
+os_build=Linux
+[options]
+[build_requires]
+[env]
+
+waf-consumer/1.0@user/channel: Forced build from source
+Installing package: waf-consumer/1.0@user/channel
+Requirements
+    mylib-waf/1.0@user/channel from local cache - Cache
+    waf-consumer/1.0@user/channel from local cache - Cache
+Python requires
+    waf-build-helper/0.1@user/channel
+Packages
+    mylib-waf/1.0@user/channel:928906148a61e9d454cd6f6e3983f931cb96e9b2 - Cache
+    waf-consumer/1.0@user/channel:27c27b5671378145c48c0d98cb81db8c64da6660 - Build
+Build requirements
+    WafGen/0.1@user/channel from local cache - Cache
+    waf/2.0.19@user/channel from local cache - Cache
+Build requirements packages
+    WafGen/0.1@user/channel:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9 - Cache
+    waf/2.0.19@user/channel:be241241e9d4718e5bab4eb33935bbb69606bb0c - Cache
+
+Installing (downloading, building) binaries...
+WafGen/0.1@user/channel: Already installed!
+mylib-waf/1.0@user/channel: Already installed!
+waf/2.0.19@user/channel: Already installed!
+waf/2.0.19@user/channel: Using Waf 2.0.19 version
+waf-consumer/1.0@user/channel: Applying build-requirement: WafGen/0.1@user/channel
+waf-consumer/1.0@user/channel: Applying build-requirement: waf/2.0.19@user/channel
+waf-consumer/1.0@user/channel: WARN: Build folder is dirty, removing it: /root/.conan/data/waf-consumer/1.0/user/channel/build/27c27b5671378145c48c0d98cb81db8c64da6660
+waf-consumer/1.0@user/channel: Configuring sources in /root/.conan/data/waf-consumer/1.0/user/channel/source
+waf-consumer/1.0@user/channel: Copying sources to build folder
+waf-consumer/1.0@user/channel: Building your package in /root/.conan/data/waf-consumer/1.0/user/channel/build/27c27b5671378145c48c0d98cb81db8c64da6660
+waf-consumer/1.0@user/channel: Generator Waf created waf_conan_libs_info.py
+waf-consumer/1.0@user/channel: Calling build()
+waf-consumer/1.0@user/channel: Waf Toolchain File created: waf_conan_toolchain.py
+Setting top to                           : /root/.conan/data/waf-consumer/1.0/user/channel/build/27c27b5671378145c48c0d98cb81db8c64da6660 
+Setting out to                           : /root/.conan/data/waf-consumer/1.0/user/channel/build/27c27b5671378145c48c0d98cb81db8c64da6660/build 
+Checking for 'g++' (C++ compiler)        : /usr/bin/g++ 
+'configure' finished successfully (0.147s)
+Waf: Entering directory `/root/.conan/data/waf-consumer/1.0/user/channel/build/27c27b5671378145c48c0d98cb81db8c64da6660/build'
+[1/2] Compiling main.cpp
+[2/2] Linking build/app
+Waf: Leaving directory `/root/.conan/data/waf-consumer/1.0/user/channel/build/27c27b5671378145c48c0d98cb81db8c64da6660/build'
+'build' finished successfully (0.333s)
+waf-consumer/1.0@user/channel: Package '27c27b5671378145c48c0d98cb81db8c64da6660' built
+waf-consumer/1.0@user/channel: Build folder /root/.conan/data/waf-consumer/1.0/user/channel/build/27c27b5671378145c48c0d98cb81db8c64da6660
+waf-consumer/1.0@user/channel: Generated conaninfo.txt
+waf-consumer/1.0@user/channel: Generated conanbuildinfo.txt
+waf-consumer/1.0@user/channel: Generating the package
+waf-consumer/1.0@user/channel: Package folder /root/.conan/data/waf-consumer/1.0/user/channel/package/27c27b5671378145c48c0d98cb81db8c64da6660
+waf-consumer/1.0@user/channel: Calling package()
+waf-consumer/1.0@user/channel: WARN: This conanfile has no package step
+waf-consumer/1.0@user/channel package(): WARN: No files in this package!
+waf-consumer/1.0@user/channel: Package '27c27b5671378145c48c0d98cb81db8c64da6660' created
+waf-consumer/1.0@user/channel: Created package revision 69d941c6b44982cad97dabc9cc67aff6

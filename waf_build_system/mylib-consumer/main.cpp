@@ -7,7 +7,7 @@
 
 #include <cstdlib>
 
-#include "TextWriterDemo.h"
+#include "mylib.hpp"
 
 using namespace std;
 
@@ -15,8 +15,7 @@ using namespace std;
  * The main function creates an instance of TextWriterDemo run it.
  */
 int main(int argc, char** argv) {
-    TextWriterDemo* demo=new TextWriterDemo();
-    demo->run();
+    PrintMessage();
     return 0;
 }
 

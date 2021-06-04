@@ -65,4 +65,12 @@
 
                 https://docs.conan.io/en/latest/howtos/custom_generators.html
 
-                
+- profile env
+
+        https://docs.conan.io/en/latest/reference/conanfile/methods.html#env-info
+        profile -> [env] CC -> tool installer -> package_info() -> self.env_info.CC
+
+        access evn from conanfile.py
+        e.g.
+        requires = "mylib/1.6.0@conan/stable"
+        self.deps_env_info["mylib"].othervar   

@@ -3,7 +3,7 @@
 
 - prepare env
 
-        install conan, best to finish my example http://github.com.npmjs.org/kyle11235/conan-example
+        install conan, best to finish my example http://github.com/kyle11235/conan-example
 
 - waf 
 
